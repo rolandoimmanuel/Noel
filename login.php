@@ -1,6 +1,6 @@
     <?php
-        $user = 'hilman';
-        $password = '123';
+        $user = 'Noel';
+        $password = '777';
 
        if (isset($_POST['submit']) ){
            if ($_POST['nama']== $user && 
@@ -10,7 +10,7 @@
            }
        }
        else {
-           echo 'login gagal';
+           echo 'login anda gagal silahkan ulang kembali';
        }
     
     ?>
